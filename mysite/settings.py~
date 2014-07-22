@@ -51,7 +51,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'mysite.urls'
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
-
+DJANGO_SETTINGS_MODULE=settings.module python -m unittest discover
 
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 # Database
